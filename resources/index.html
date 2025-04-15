@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirvana - Mental Wellness Resources</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Nirvana</div>
+        <div class="tagline">Your Journey to Mental Wellness</div>
+    </header>
+    
+
+    <nav>
+        <div class="nav-container">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#" class="active">Resources</a>
+            <a href="#">Blog</a>
+            <a href="#">Community</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <br>
+    <div class="category-nav">
+        <button class="category-button" onclick="scrollToCategory('anxiety')">Anxiety</button>
+        <button class="category-button" onclick="scrollToCategory('depression')">Depression</button>
+        <button class="category-button" onclick="scrollToCategory('sleep')">Sleep</button>
+        <button class="category-button" onclick="scrollToCategory('stress')">Stress</button>
+        <button class="category-button" onclick="scrollToCategory('self-care')">Self-Care</button>
+        <button class="category-button" onclick="scrollToCategory('mindfulness')">Mindfulness</button>
+        <button class="category-button" onclick="scrollToCategory('trauma')">Trauma</button>
+        <button class="category-button" onclick="scrollToCategory('relationships')">Relationships</button>
+        <button class="category-button" onclick="scrollToCategory('crisis')">Crisis</button>
+        <button class="category-button" onclick="scrollToCategory('professional')">Professional Help</button>
+    </div>
+
+    <div class="container">
+        <div class="intro">
+            <h1>Mental Wellness Resources</h1>
+            <p>We've curated a collection of valuable resources to support your mental health journey. Browse through different categories to find articles, videos, and practical tools.</p>
+        </div>
+
+        <div class="featured-section">
+            <h2 class="category-heading">Featured Articles</h2>
+            <div class="featured-grid">
+                <a class="card" href="https://manastha.com/blog/how-to-deal-with-social-anxiety" target="_blank">
+                    <figure>
+                        <img src="https://cdn.sanity.io/images/nh775r0u/production/4e533d38e8e118d8c3609020c107a1571641578d-1920x1280.jpg?fit=max&auto=format" alt="How to deal with Social Anxiety">
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex items-center justify-between space-x-3">
+                            <div>
+                                <div class="heading6">How to deal with Social Anxiety</div>
+                            </div>
+                            <div class="rounded-full border p-sm">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://manastha.com/blog/understanding-depression-and-effective-ways-to-heal" target="_blank">
+                    <figure>
+                        <img src="https://cdn.sanity.io/images/nh775r0u/production/bb61028ce7e617724ad5bef52c604be24cb7e324-1280x1924.jpg?fit=max&auto=format" alt="Understanding Depression and Effective ways to Heal">
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex items-center justify-between space-x-3">
+                            <div>
+                                <div class="heading6">Understanding Depression and Effective ways to Heal</div>
+                            </div>
+                            <div class="rounded-full border p-sm">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://manastha.com/blog/how-to-deal-with-irrational-fears" target="_blank">
+                    <figure>
+                        <img src="https://cdn.sanity.io/images/nh775r0u/production/6f3693cd7933632783603d2a56457d6dc8eadecd-1280x1919.jpg?fit=max&auto=format" alt="How to deal with Irrational Fears">
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex items-center justify-between space-x-3">
+                            <div>
+                                <div class="heading6">How to deal with Irrational Fears</div>
+                            </div>
+                            <div class="rounded-full border p-sm">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://manastha.com/blog/intrusive-thoughts-knowing-the-causes-types-and-treatment" target="_blank">
+                    <figure>
+                        <img src="https://cdn.sanity.io/images/nh775r0u/production/62667cd1fd75c7dff00366204386529c469788ce-1280x1920.jpg?fit=max&auto=format" alt="Intrusive Thoughts – Knowing the Causes, Types, and Treatment">
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex items-center justify-between space-x-3">
+                            <div>
+                                <div class="heading6">Intrusive Thoughts – Knowing the Causes, Types, and Treatment</div>
+                            </div>
+                            <div class="rounded-full border p-sm">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://manastha.com/blog/5-best-stress-management-techniques" target="_blank">
+                    <figure>
+                        <img src="https://cdn.sanity.io/images/nh775r0u/production/5f0b274cedd1c4f1e98d4e245564abbaac4aa27f-1920x1280.jpg?fit=max&auto=format" alt="5 Best Stress Management Techniques">
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex items-center justify-between space-x-3">
+                            <div>
+                                <div class="heading6">5 Best Stress Management Techniques</div>
+                            </div>
+                            <div class="rounded-full border p-sm">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://manastha.com/blog/are-you-unhappy-with-your-life" target="_blank">
+                    <figure>
+                        <img src="https://cdn.sanity.io/images/nh775r0u/production/2f21f3327002b3fd8b9def9c12783f4998ba64cf-1920x1000.png?fit=max&auto=format" alt="Are you Unhappy with your Life?">
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex items-center justify-between space-x-3">
+                            <div>
+                                <div class="heading6">Are you Unhappy with your Life?</div>
+                            </div>
+                            <div class="rounded-full border p-sm">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://manastha.com/blog/5-effective-anger-management-strategies" target="_blank">
+                    <figure>
+                        <img src="https://cdn.sanity.io/images/nh775r0u/production/7d17c9a92a36fcd4e06e8b1e40e77eb701cea2cf-1920x1151.jpg?fit=max&auto=format" alt="5 Effective Anger Management Strategies">
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex items-center justify-between space-x-3">
+                            <div>
+                                <div class="heading6">5 Effective Anger Management Strategies</div>
+                            </div>
+                            <div class="rounded-full border p-sm">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://manastha.com/blog/how-to-stop-procrastination" target="_blank">
+                    <figure>
+                        <img src="https://cdn.sanity.io/images/nh775r0u/production/10d838acaf6aa1340bd721ab423fb7df02078a8c-640x960.jpg?fit=max&auto=format" alt="How to Stop Procrastination">
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex items-center justify-between space-x-3">
+                            <div>
+                                <div class="heading6">How to Stop Procrastination</div>
+                            </div>
+                            <div class="rounded-full border p-sm">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <div id="anxiety" class="category-section">
+            <h2 class="category-heading">Anxiety Resources</h2>
+            
+            <div class="resource-type">
+                <h3>Featured Article</h3>
+                <a class="card" href="https://manastha.com/blog/how-to-deal-with-social-anxiety" target="_blank">
+                    <figure>
+                        <img src="https://cdn.sanity.io/images/nh775r0u/production/4e533d38e8e118d8c3609020c107a1571641578d-1920x1280.jpg?fit=max&auto=format" alt="How to deal with Social Anxiety">
+                    </figure>
+                    <div class="card-body">
+                        <div>
+                            <p class="resource-source">ARTICLE | 7 MIN READ</p>
+                        </div>
+                        <div class="flex items-center justify-between space-x-3">
+                            <div>
+                                <div class="heading6">How to deal with Social Anxiety</div>
+                                <p class="card-description">It’s common to experience anxiety in certain social settings. For instance, giving a presentation or going on a date can make you feel a little nervous, which is expected. A mental health issue known as social anxiety disorder is defined by a dread of being observed or evaluated by others in social settings. When you have social anxiety disorder, also known as social phobia, you constantly worry about how other people will react to you in social situations and feel self-conscious and embarrassed.</p>
+                            </div>
+                            <div class="rounded-full border p-sm">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="resource-type">
+                <h3>Blog Articles</h3>
+                <ul class="resource-list">
+                    <li class="resource-item">
+                        <a href="https://www.psychologytoday.com/us/basics/anxiety" target="_blank">Understanding Anxiety Disorders</a>
+                        <span class="resource-source"> - Psychology Today</span>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://www.verywellmind.com/panic-disorder-4157247" target="_blank">When Panic Attacks: Techniques for Managing Anxiety</a>
+                        <span class="resource-source"> - VeryWell Mind</span>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://www.healthline.com/health/anxiety" target="_blank">The Science Behind Anxiety and How to Manage It</a>
+                        <span class="resource-source"> - Healthline</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="resource-type">
+                <h3>Videos</h3>
+                <div class="video-resources">
+                    <div class="video-card">
+                        <div class="video-placeholder">
+                            <iframe width="360" height="180" src="https://www.youtube.com/embed/PxjxY9VilCs?si=RI39G1fbry8_R2PV" title="How to cope with anxiety" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <div class="video-title">How to cope with anxiety</div>
+                            <div class="video-creator">By Therapy in a Nutshell</div>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-placeholder">
+                            <iframe width="360" height="180" src="https://www.youtube.com/embed/8_PQJNo2wME?si=Ijts4zG1o8qILlbL" title="Understanding and Managing Anxiety" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <div class="video-title">Self-Hatred & Anxiety</div>
+                            <div class="video-creator">By The School of Life</div>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <div class="video-placeholder">
+                            <iframe width="360" height="180" src="https://www.youtube.com/embed/grfXR6FAsI8?si=LrjqGDl4XNttqsTn" title="3-Minute Anxiety Relief Technique" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <div class="video-title">3-Minute Anxiety Relief Technique</div>
+                            <div class="video-creator">By Therapy in a Nutshell</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource-type">
+                <h3>Tools & Exercises</h3>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-title">Mindful breathing exercises</div>
+                        <p>Simple breathing techniques to help reduce anxiety in the moment.</p>
+                    </div>
+                    <div class="tool-card">
+                        <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2150121728/settings_images/aK1Ir9alTauqQYpZatsL_file.jpg" alt="Quick Start Guide to Anxiety">
+                        <div class="tool-title">Quick Start Guide to Anxiety</div>
+                        <p>Quick tips and skills to get a start at managing anxiety.</p>
+                        <a href="https://s3.amazonaws.com/kajabi-storefronts-production/file-uploads/sites/2147560907/themes/2151805623/downloads/df67d-841f-6b4f-e5db-350522acfd_Updated_Quickstart_Guide_to_Anxiety.pdf" target="_blank">
+                            <button class="download-button">Download Quick Start Guide</button>
+                        </a>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-title">Anxiety tracking worksheet</div>
+                        <p>Monitor your triggers and symptoms to better manage your anxiety.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="depression" class="category-section">
+            <h2 class="category-heading">Depression Resources</h2>
+            
+            <div class="resource-type">
+                <h3>Featured Article</h3>
+                <a class="card" href="https://manastha.com/blog/understanding-depression-and-effective-ways-to-heal" target="_blank">
+                    <figure>
+                        <img src="https://cdn.sanity.io/images/nh775r0u/production/bb61028ce7e617724ad5bef52c604be24cb7e324-1280x1924.jpg?fit=max&auto=format" alt="Understanding Depression and Effective ways to Heal">
+                    </figure>
+                    <div class="card-body">
+                        <div>
+                            <p class="resource-source">ARTICLE | 7 MIN READ</p>
+                        </div>
+                        <div class="flex items-center justify-between space-x-3">
+                           
+                            <div>
+                                <div class="heading6">Understanding Depression and Effective ways to Heal</div>
+                                <p class="card-description">A persistent sense of emptiness, sorrow or an inability to experience the pleasure that may seem to occur for no apparent reason is known as depression. It is quite different from general sadness or grief as it lingers on for a prolonged period of time. It may result in severe symptoms that interfere with your ability to function on a daily basis, including sleeping, eating, and working. No matter what their age, colour, income, culture, or level of education is, it is a disease that can impact everyone.</p>
+                            </div>
+                            <div class="rounded-full border p-sm">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-5 h-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="resource-type">
+                <h3>Blog Articles</h3>
+                <ul class="resource-list">
+                    <li class="resource-item">
+                        <a href="https://www.nimh.nih.gov/health/topics/depression" target="_blank">Depression: Signs, Symptoms, and Treatment Options</a>
+                        <span class="resource-source"> - National Institute of Mental Health</span>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://www.mayoclinic.org/diseases-conditions/depression/symptoms-causes/syc-20356007" target="_blank">Understanding Depression: More Than Just Sadness</a>
+                        <span class="resource-source"> - Mayo Clinic</span>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://www.mind.org.uk/information-support/types-of-mental-health-problems/depression/" target="_blank">How to Support Someone with Depression</a>
+                        <span class="resource-source"> - Mind.org</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="resource-type">
+                <h3>Videos</h3>
+                <div class="video-resources">
+                    <div class="video-card">
+                        <div class="video-placeholder">
+                            <iframe width="360" height="180" src="https://www.youtube.com/embed/qfrpO9PsGC0?si=6P0J5HuE1b8YroIi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <div class="video-title">You Can Deal With Depression Right Away!!</div>
+                            <div class="video-creator">By Kati Morton</div>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-placeholder">
+                            <iframe width="360" height="180" src="https://www.youtube.com/embed/z-IR48Mb3W0?si=ZJW6oz59zDqr6_9v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <div class="video-title">Depression is Different for Everyone</div>
+                            <div class="video-creator">By TED-Ed</div>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-placeholder">
+                            <iframe width="360" height="180" src="https://www.youtube.com/embed/SApOxZ7BMwE?si=vQVtiZwLCwqbgf5_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                        </div>
+                        <div class="video-info">
+                            <div class="video-title">Cognitive Behavioral Therapy for Depression</div>
+                            <div class="video-creator">By Dr. Tracey Marks</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource-type">
+                <h3>Tools & Exercises</h3>
+                <div class="tools-grid">
+                    <div class="tool-card">
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource-type">
+                <h3>Self-Assessment Tools</h3>
+                <a class="card" href="https://www.amahahealth.com/depression/blog/tools-for-depression-screening-assessments-tests/?pageName=resources_article&source=topnav" target="_blank">
+                    <div class="flex items-center space-x-3">
+                        <div>
+                            <figure>
+                                <img src="https://firebasestorage.googleapis.com/v0/b/gcpinnerhour.appspot.com/o/admin%2Fresources%2Fblogs%2Fthumbnail%2FUsing%20Self-Assessment%20Tools%20for%20Depression.jpg?alt=media&token=342aaf64-47ac-4109-b786-ed12fc98e0ac" alt="Article Visual">
+                            </figure>
+                        </div>
+                        <div class="card-body">
+                            <div>
+                                <p class="resource-source">ARTICLE | 4 MIN READ</p>
+                            </div>
+                            <div>
+                                <div class="heading6">Self-Assessment Tests For Depression</div>
+                                <p class="card-description">Feeling low? Learn to spot depression's signs and explore self-assessment tools. Find the clinical ways to diagnose depression using the hamilton rating scale and other methods....</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        <div id="sleep" class="category-section">
+            <h2 class="category-heading">Sleep Issues</h2>
+
+            <div class="resource-type">
+                <h3>Blog Articles</h3>
+                <ul class="resource-list">
+                    <li class="resource-item">
+                        <a href="https://www.sleepfoundation.org/mental-health" target="_blank">Why Sleep Matters for Mental Health</a>
+                        <span class="resource-source"> - Sleep Foundation</span>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/sleepiness-cognitive-impairment" target="_blank">10 Tips for Better Sleep Tonight</a>
+                        <span class="resource-source"> - Johns Hopkins Medicine</span>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://www.health.harvard.edu/newsletter_article/sleep-and-mental-health" target="_blank">The Connection Between Sleep and Mental Health</a>
+                        <span class="resource-source"> - Harvard Health</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="resource-type">
+                <h3>Videos</h3>
+                <div class="video-resources">
+                    <div class="video-card">
+                        <div class="video-placeholder">
+                            <iframe width="360" height="180" src="https://www.youtube.com/embed/IM48HKJbu70?si=QBJf2ZbTBOZypiw_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <div class="video-title">The Scientific Formula for Perfect Sleep - Matt Walker</div>
+                            <div class="video-creator">By After Skool</div>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-placeholder">
+                            <iframe width="360" height="180" src="https://www.youtube.com/embed/twJyV6EX49E?si=DV4hOSQveTFCBxg3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <div class="video-title">Sleep Meditation for Anxiety</div>
+                            <div class="video-creator">By Michael Sealey</div>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-placeholder">
+                            <iframe width="360" height="180" src="https://www.youtube.com/embed/WIaI_VYibG8?si=2HqrvhioxvVVKBIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-info">
+                            <div class="video-title">Sleep: Are You Getting Enough? Probably Not</div>
+                            <div class="video-creator">By Healthcare Triage</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resource-type">
+                <h3>Tools & Exercises</h3>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-title">Sleep diary template</div>
+                        <p>Track your sleep patterns to identify issues and improvements.</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-title">Bedtime routine checklist</div>
+                        <p>Develop consistent habits that signal your body it's time for sleep.</p>
+                    </div>
+                    <div class="tool-card">
+                        <div class="tool-title">Audio files for sleep meditation</div>
+                        <p>Guided relaxation techniques to help you fall asleep faster.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="crisis" class="category-section">
+            <h2 class="category-heading">Crisis Resources</h2>
+
+            <div class="crisis-resources">
+                <h3>Immediate Help</h3>
+                <p><strong>If you or someone you know is in immediate danger, please call emergency services (100) right away.</strong></p>
+                <ul class="resource-list">
+                    <li class="resource-item"><strong>National Suicide Prevention Lifeline:</strong> 988 or 1-800-273-8255</li>
+                    <li class="resource-item"><strong>Crisis Text Line (WhatsApp):</strong>  <a href="https://icallhelpline.org/" target="_blank">Visit iCall Helpline</a></li>
+                    <li class="resource-item"><strong>Online Crisis Support:</strong> <a href="http://www.aasra.info/" target="_blank">Visit Aasra for crisis support</a></li>
+                </ul>
+            </div>
+
+            <div class="resource-type">
+                <h3>Local Resources</h3>
+                <ul class="resource-list">
+                    <li class="resource-item">
+                        <a href="https://www.psychologytoday.com/us/therapists" target="_blank">Find a Therapist Tool</a>
+                        <span class="resource-source"> - Psychology Today</span>
+                    </li>
+                    <li class="resource-item">
+                        <a href="#">Community Mental Health Centers Directory</a>
+                        <span class="resource-source"> - Contact us to find centers in your area</span>
+                    </li>
+                    <li class="resource-item">
+                        <a href="#">Support Group Finder</a>
+                        <span class="resource-source"> - Find local and online support groups</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="professional" class="category-section">
+            <h2 class="category-heading">Professional Help</h2>
+
+            <div class="resource-type">
+                <h3>Finding Treatment</h3>
+                <ul class="resource-list">
+                    <li class="resource-item">
+                        <a href="https://www.apa.org/topics/psychotherapy/understanding" target="_blank">What to Expect in Therapy</a>
+                        <span class="resource-source"> - American Psychological Association</span>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://www.nimh.nih.gov/health/topics/mental-health-treatments" target="_blank">Types of Mental Health Professionals</a>
+                        <span class="resource-source"> - National Institute of Mental Health</span>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://www.goodtherapy.org/blog/how-to-find-therapist-counselor-choosing-best-mental-healthcare-professional-0719164" target="_blank">How to Choose the Right Therapist</a>
+                        <span class="resource-source"> - GoodTherapy</span>
+                    </li>
+                    <li class="resource-item">
+                        <a href="https://www.amahahealth.com/blog/what-to-expect-from-a-psychiatric-consultation/?pageName=resources_article&fromSpotlight=true&source=topnav" target="_blank">What to Expect from a Psychiatric Consultation</a>
+                        <span class="resource-source"> - Amaha Health</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="resource-type">
+                <h3>Insurance & Accessibility</h3>
+                <ul class="resource-list">
+                    <li class="resource-item">
+                        <a href="#">Guide to Using Insurance for Mental Health Care</a>
+                        <span class="resource-source"> - Nirvana Resource</span>
+                    </li>
+                    <li class="resource-item">
+                        <a href="#">Low-Cost Therapy Options</a>
+                        <span class="resource-source"> - Nirvana Resource</span>
+                    </li>
+                    <li class="resource-item">
+                        <a href="#">Sliding Scale Services Directory</a>
+                        <span class="resource-source"> - Nirvana Resource</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact</a>
+        </div>
+        <p>© 2025 Nirvana Mental Wellness. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function scrollToCategory(categoryId) {
+            const element = document.getElementById(categoryId);
+            window.scrollTo({
+                top: element.offsetTop - 100,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
